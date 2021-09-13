@@ -1,0 +1,31 @@
+/*Get Started*/
+
+body {
+    background-color: #F2F2F2;
+}
+
+.default {
+    background-color: #F2F2F2;
+}
+
+.congratulation {
+    color: #4C7CFF;
+}
+
+.bg-blue-405 {
+    background: #4C7CFF;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.bg-blue-415 {
+    background: #4C7CFF;
+    color: #ffffff;
+    border-radius: 15px;
+}
+
+.white-card {
+    background: #ffffff;
+    border-radius: 18px;
+
+}
