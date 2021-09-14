@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Регистрация на тест</title>
+    <!--tailwind-cdn-->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <style>
+        .yellow-login-body {
+            background: #FEBE00;
+        }
+    </style>
+</head>
+<body class="yellow-login-body">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+    <div>
+        <nav class="hidden md:block lg:block">
+            <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+                <div class="relative flex items-center justify-between h-16">
+                    <div class="flex-shrink-0 flex items-center">
+                        <img class="block lg:hidden h-8 w-auto" src="./img/main_logo_fff.png" alt="iTalent">
+                        <img class="hidden lg:block h-8 w-auto" src="./img/main_logo_fff.png" alt="iTalent">
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="lookingGirl lg:mt-16 hidden md:block lg:block">
+            <img src="./img/lookingGirl.png" alt="">
+        </div>
+    </div>
+    <div class="register-card lg:px-32 h-screen">
+        <!--container-->
+        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 lg:mt-32">
+            <div class="text-center">
+                <div class="lg:text-3xl md:text-2xl text-xl my-12">
+                    Регистарция на тест
+                </div>
+                <div class="space-y-2">
+                    <div class="relative text-gray-700">
+                        <input class="w-full h-10 pl-8 pr-3 text-base border border-gray-300 rounded-lg focus:outline-none"
+                               type="text" placeholder="Ваше имя"/>
+                        <div class="absolute inset-y-0 left-0 flex items-center px-2 pointer-events-none">
+                            <img src="./img/user.svg" alt="user">
+                        </div>
+                    </div>
+                    <div class="relative text-gray-700">
+                        <input class="w-full h-10 pl-8 pr-3 text-base border border-gray-300 rounded-lg focus:outline-none"
+                               type="text" placeholder="Ваша фамилия"/>
+                        <div class="absolute inset-y-0 left-0 flex items-center px-2 pointer-events-none">
+                            <img src="./img/user_gray.svg" alt="user">
+                        </div>
+                    </div>
+                    <div class="relative text-gray-700">
+                        <input class="w-full h-10 pl-8 pr-3 text-base border border-gray-300 rounded-lg focus:outline-none"
+                               type="text" placeholder="Почта"/>
+                        <div class="absolute inset-y-0 left-0 flex items-center px-2 pointer-events-none">
+                            <img src="./img/sobachka.svg" alt="user">
+                        </div>
+                    </div>
+                    <div class="relative text-gray-700">
+                        <input class="w-full h-10 pl-8 pr-3 text-base border border-gray-300 rounded-lg focus:outline-none"
+                               type="text" placeholder="Ваше имя"/>
+                        <div class="absolute inset-y-0 left-0 flex items-center px-2 pointer-events-none">
+                            <img src="./img/phone.svg" alt="user">
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 space-x-2">
+                        <div class="relative text-gray-700">
+                            <input class="w-full h-10 pl-8 pr-3 text-base border border-gray-300 rounded-lg focus:outline-none"
+                                   type="text" placeholder="Возраст"/>
+                            <div class="absolute inset-y-0 left-0 flex items-center px-2 pointer-events-none">
+                                <img src="./img/calendar.svg" alt="user">
+                            </div>
+                        </div>
+                        <div class="relative text-gray-700">
+                            <input class="w-full h-10 pl-8 pr-3 text-base border border-gray-300 rounded-lg focus:outline-none"
+                                   type="text" placeholder="Промокод"/>
+                            <div class="absolute inset-y-0 left-0 flex items-center px-2 pointer-events-none">
+                                <img src="./img/promo.svg" alt="user">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center pt-2">
+                        <button class="bg-blue-415 py-4 px-12 w-full justify-center lg:text-base md:text-base text-sm flex items-center">
+                            <img src="./img/thunder.svg" alt="thunder">
+                            Зарегистрироваться
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

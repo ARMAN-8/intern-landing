@@ -27,5 +27,25 @@ body {
 .white-card {
     background: #ffffff;
     border-radius: 18px;
+}
 
+.gray-outline-btn {
+    border-radius: 10px;
+}
+
+.red {
+    border: 1px solid red;
+}
+
+.lookingGirl {
+    /*position: absolute;*/
+    left: 4.24%;
+    right: 58.96%;
+    top: 28.21%;
+    bottom: 23.54%;
+}
+
+.register-card {
+    background: #ebebeb;
+    border-radius: 80px 0px 0px 80px;
 }
